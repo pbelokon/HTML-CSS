@@ -1,0 +1,18 @@
+/* css variables */
+:root {
+  --color-primary: #ff7b54;
+  --color-text-on-primary: #ffffff;
+
+  --font-family: "Inter", sans-serif;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--color-primary);
+  color: var(--color-text-on-primary);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
